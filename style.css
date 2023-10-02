@@ -1,0 +1,107 @@
+/* Style for the top bar (same as before) */
+.top-bar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Style for the carousel container */
+.carousel-container {
+  margin-top: 20px; /* Add some spacing between the top bar and the carousel */
+}
+
+.center-div {
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  width: 100%; /* Adjust this value to your preferred width */
+  height: 600px; /* Maintain the image's aspect ratio */
+}
+
+.about-section {
+  text-align: center;
+}
+
+.about-section h1 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.about-section hr {
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+}
+
+.thumbnail {
+  width: 175px;
+  height: 175px;
+}
+
+/* Style for the About content layout */
+.about-content {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.about-image {
+  flex: 1;
+  text-align: center;
+}
+
+.about-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.about-info {
+  flex: 2;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.about-info h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.about-info p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.about-text {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.about-text p {
+  font-size: 16px;
+}
